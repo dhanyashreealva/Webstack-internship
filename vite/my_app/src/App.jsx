@@ -13,7 +13,7 @@ function App() {
       <h1>
         Welcome to everyone
       </h1>
-      <Addition num1={10} num2={10}/>
+      <Addition/>
      
    </>
   )
