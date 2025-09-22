@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../css/Home.css"
 import Search from './Search'
+import Filter from './Filter'
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
         
         <div className='search_filter'>
           <Search/>
+          <Filter/>
         </div>
 
         <span className='material-symbols-outlined web_logo'>
