@@ -1,11 +1,15 @@
 import React from 'react'
 import '../../css/Home.css';
+import {Link} from 'react-router-dom'
 
 const Card=({image,name,address,price})=>{
     return(
         <>
         <figure className='property'>
             <img src={image} alt="Propertyimg" />
+            <Link to={`/propertylist/${id}`}>
+            <img src={image} alt='Propertyimg'/>
+            </Link>
             <h4>{name}</h4>
             <figcaption>
                 <main className='propertydetails'>
